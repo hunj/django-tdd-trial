@@ -19,5 +19,5 @@ from resources import views
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
-    path('', views.home_page, name='home'),
+    path('', views.home_page, name='home_page'),
 ]
